@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center; 
+    background: linear-gradient(to bottom,  #c6c6c6 0%,#e8e8e8 35%,#aaaaaa 100%);
+    font-family:monospace;
+    overflow:clip
+  }
+  
+   #canvas{ 
+     background:#a3c276;
+    border-top:3px solid #000a;
+     border-right:3px solid #fff6;
+     border-bottom:3px solid #fff6;
+     border-left:3px solid #000a; 
+    opacity:.8;
+    border-radius:3px;
+     outline:58px solid #555
+  }
+  h4{
+    font-size:3em;
+    margin:58px;
+    opacity:.8;
+      color:#008;
+    text-transform:uppercase;
+    text-shadow:2px 2px 0 #fffa, -2px -2px 0 #0003;
+    font-style:italic;
+    i{
+      padding-left:2px
+    }
+    b{
+       font-family:sans-serif; 
+       font-style:normal;
+        text-transform:initial;
+        font-weight:800;
+        font-size:.7em
+    }
+    } 
+  }
